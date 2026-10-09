@@ -348,7 +348,7 @@ h1 {
 
 .parcours {
     width: 100%;
-    height: 250px;
+    height: 270px;
     background-color: #08111D;
     display: flex;
     align-items: center;
@@ -412,4 +412,141 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.evenements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 250px;
+}
+
+.eventext {
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.evenFirst {
+    width: 25%;
+    height: 230px;
+    background-color: #034BFF;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.evenRest {
+    width: 15%;
+    height: 230px;
+    border: solid 1px #DDE4F0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.evenements button {
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+    color: #034BFF;
+    width: 230px;
+    height: 40px;
+}
+
+.groupClass {
+    width: 100%;
+    height: 115px;
+    border-radius: 5px;
+}
+
+.rest_child1 {
+    font-weight: 700;
+    font-size: 15px;
+    color: #0A1222;
+}
+
+.rest_child2 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.evenRest button {
+    font-weight: 700;
+    font-size: 13px;
+    color: #034BFF;
+    border: solid 1px #034BFF;
+    background-color: transparent;
+    width: 90%;
+}
+
+.photoBox {
+    width: 100%;
+    height: 115px;
+    position: relative;
+}
+
+.temoignage {
+    width: 100%;
+    height: 174px;
+    background-color: #F4F7FC;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+
+.imgperson {
+    width: 188px;
+    height: 156px;
+}
+
+.child {
+    width: 50%;
+    height: 100%;                      
+}
+
+.childjunior {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    height: fit-content;
+}
+
+.childOfchild {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.smallchild {
+    font-weight: 400;
+    font-size: 18px;
+    color: #0A1222;
+}
+
+.tem_parag1 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #0A1222;
+}
+
+.tem_parag2 {
+    font-weight: 400;
+    font-size: 10px;
+    color: #47526A;
+}
+
+.dots {
+    font-weight: 400;
+    font-size: 11px;
+    color: #034BFF;
 }
